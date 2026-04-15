@@ -38,6 +38,9 @@ The processor is designed using a **5-stage pipeline**:
    * Write the result back to the Register File
 
 ---
+## Processor Architecture
+
+![Architecture Diagram](https://github.com/rohitbaskey08/riscv_pipeline_processor/blob/master/doc/architecture.png)
 
 ## Pipeline Stages
 
