@@ -93,26 +93,6 @@ Example instructions implemented:
 
 ---
 
-## Project Structure
-
-```
-riscv_32bit_pipeline_processor
-│
-├── src
-│   ├── alu.v
-│   ├── control_unit.v
-│   ├── register_file.v
-│   ├── instruction_memory.v
-│   ├── data_memory.v
-│   ├── pipeline_registers.v
-│   └── processor_top.v
-│
-├── testbench
-│   └── processor_tb.v
-│
-└── README.md
-```
-
 ---
 
 ## Simulation
@@ -121,14 +101,7 @@ The design can be simulated using:
 
 * ModelSim
 * Vivado
-* Icarus Verilog
 
-Example (Icarus Verilog):
-
-```
-iverilog processor_top.v testbench.v
-vvp a.out
-```
 
 ---
 
@@ -150,12 +123,4 @@ Rohit Baskey
 
 ---
 
-## Future Improvements
 
-* Hazard Detection Unit
-* Forwarding Unit
-* Complete RV32I instruction support
-* Branch prediction
-* Cache memory implementation
-
----
